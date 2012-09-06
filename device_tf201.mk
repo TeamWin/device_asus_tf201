@@ -121,7 +121,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.product.model=TF201
 
 # Inherit tablet dalvik settings
-$(call inherit-product, frameworks/base/build/tablet-dalvik-heap.mk)
+#$(call inherit-product, frameworks/base/build/tablet-dalvik-heap.mk)
 
 # Call the vendor to setup propiatory files
 $(call inherit-product-if-exists, vendor/asus/tf201/tf201-vendor.mk)
